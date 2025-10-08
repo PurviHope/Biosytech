@@ -39,6 +39,16 @@ p {
   color: #161616;
   text-align: justify;
 }
+ul{
+	font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, sans-serif;
+  font-weight: 500;  /* regular weight */
+  font-size: clamp(5px, 1.2vw, calc(1720px * 1.2 / 95));
+  line-height: 1.6;
+  margin-bottom: 2vw;
+  color: #161616;
+  text-align: justify;
+}
 /* For small screens */
 @media (max-width: 768px) {
   p {
