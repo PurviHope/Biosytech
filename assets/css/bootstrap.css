@@ -30,6 +30,7 @@
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+	color:#565656;
 }
 
 /* line 16, src/assets/scss/_reboot.scss */
@@ -54,7 +55,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #565656;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -85,11 +86,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
+	color: #565656;
 }
 
 /* line 108, src/assets/scss/_reboot.scss */
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
+	color:#565656;
 }
 
 @media (min-width: 1200px) {
@@ -102,6 +105,7 @@ h1, .h1 {
 /* line 113, src/assets/scss/_reboot.scss */
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
+	color: #565656;
 }
 
 @media (min-width: 1200px) {
@@ -114,6 +118,7 @@ h2, .h2 {
 /* line 118, src/assets/scss/_reboot.scss */
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+	color:#565656;
 }
 
 @media (min-width: 1200px) {
@@ -126,6 +131,7 @@ h3, .h3 {
 /* line 123, src/assets/scss/_reboot.scss */
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
+	color:#565656;
 }
 
 @media (min-width: 1200px) {
@@ -138,17 +144,20 @@ h4, .h4 {
 /* line 128, src/assets/scss/_reboot.scss */
 h5, .h5 {
   font-size: 1.25rem;
+	color:#565656;
 }
 
 /* line 133, src/assets/scss/_reboot.scss */
 h6, .h6 {
   font-size: 1rem;
+	color:#565656;
 }
 
 /* line 144, src/assets/scss/_reboot.scss */
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+	color:#565656;
 }
 
 /* line 157, src/assets/scss/_reboot.scss */

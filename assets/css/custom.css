@@ -36,7 +36,7 @@ p {
   font-size: clamp(5px, 1.2vw, calc(1720px * 1.2 / 95));
   line-height: 1.6;
   margin-bottom: 2vw;
-  color: #161616;
+  color: #565656;
   text-align: justify;
 }
 ul{
@@ -46,7 +46,7 @@ ul{
   font-size: clamp(5px, 1.2vw, calc(1720px * 1.2 / 95));
   line-height: 1.6;
   margin-bottom: 2vw;
-  color: #161616;
+  color: #565656;
   text-align: justify;
 }
 /* For small screens */
