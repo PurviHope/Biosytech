@@ -84,17 +84,25 @@ p, a {font-weight: 400;}
 .service-work.card {
   border-radius: 10px !important;
   cursor: pointer;
+ align-content: center !important;
 }
-.service-work .service-work-vertical {
-	background: rgb(0,0,0);
+
+ .service-work .service-work-vertical {
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 33.33%, rgba(7,246,236,1) 66.66%, rgba(66,61,205,1) 99.99%);
   background-size: 300% 300%;
   background-position: 0% 100%;
   transition: .5s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; /* text bottom ma */
+  text-align: center;
 }
+
+
 .service-work .service-work-vertical:hover {
   background-position: 0% 0%;
   transition: .5s;
+align-content: center !important;
 }
 .service-work .service-work-vertical:hover * {
   color: #000000; /* Default for desktop */
